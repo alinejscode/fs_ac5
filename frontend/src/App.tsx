@@ -6,6 +6,7 @@ import {
 interface response {
   texto: string;
 }
+
 function App() {
   const [text, setText] = useState("");
   const [response, setResponse] = useState({} as response);
